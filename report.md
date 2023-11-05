@@ -69,14 +69,53 @@ After this result, we continued to determine, **how does this affect all other s
 ---
 
 **ML approach to steer formulating an hypothesis**: 
-If we attempt to classify...
+
+The purpouse of this part is to attempt to create a classifier that given the amount of DNA per species over the three values, can determine which treatment was used.
+
+Example data row:
+
+| id | Specie | System | Treatment | Replica | t1 | t2 | t3 | slope | var | std | mean |
+|----|--------|--------|-----------|---------|----|----|----|-------|-----|-----|-----|
+| Rhodocytophaga_rosea_B2_A | Rhodocytophaga rosea | 157223 | B | 2 | A | 0.146843 | 0.168919 | 0.0 | -0.073421 | 0.00562 | 0.13 | 0.12
+
+The coloumns that contained alphabetic sata such as "Treatment" being "B" was transformed into numeric values.
+
+Initally, the data was skewed, and this proved to be a big issue. Upon initial prediciting, the model simply guessed the 9th treatment much too often, but it makes sense since this is a valid "strategy". 
+
+After removing the 9th treatment to see if the model could improve, it made the model slightly worse. So even with balanced treatment data, the model had a lot of issues predicting the correct treatment from the data.
+
+| Treatment | Count | Percentage |
+|-----------|-------|------------|
+| 1         | 73392 | 10.714     |
+| 2         | 73392 | 10.714     |
+| 3         | 73392 | 10.714     |
+| 4         | 73392 | 10.714     |
+| 5         | 73392 | 10.714     |
+| 6         | 73392 | 10.714     |
+| 7         | 73392 | 10.714     |
+| 8         | 73392 | 10.714     |
+| 9         | 97856 | 14.285     |
 
 
-HENRIK PART
+Treatment 9 is occouring much more often than the other treatments.
 
+After attempting to classify which treatment comes from what values, it proved to be a bit of an issue. 
 
-+DL part??? (TODO)
+Generally, the models came up with an accuracy around 18%, this is a reflection of when the model guesses, what is the chance it guesses right? An accruacy of 18% is only slightly better than simply guessing treatment 9 every time.
 
+![baseline](figs/baseline.png)
+
+![baseline](figs/predict_fig2.png)
+
+![baseline](figs/predict_fig3.png)
+
+![baseline](figs/predict_fig4.png)
+
+After removing treatment 9, the accuracy fell to 0.156. This means that the model is able to sometimes guess the treatment from the data, however the accuracy falling when removing treatment 9, simply shows the model guesses treatment 9 too often.
+
+![baseline](figs/predict_fig5.png)
+
+Overall, these models proved that simpy determining treatment from the amount of dna from each species, is a difficult task, and perhaps since DNA percent differs so much between each species, there may not be a clear correlation.
 
 ## **How does treatment affect water conditions?**
 In order to answer this question we attempted to create some simple ML classifiers, SVM and KNN. They attempted to classify the applied treatment by using the water conditions as features. 
