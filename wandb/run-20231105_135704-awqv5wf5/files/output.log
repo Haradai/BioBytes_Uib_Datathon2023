@@ -3166,3 +3166,719 @@ Traceback (most recent call last):
     rec = self._extract_packet_bytes()
   File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
     assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError
+Exception in thread SockSrvRdThr:
+Traceback (most recent call last):
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/service/server_sock.py", line 100, in run
+    sreq = self._sock_client.read_server_request()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 274, in read_server_request
+    data = self._read_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 248, in _read_packet_bytes
+    rec = self._extract_packet_bytes()
+  File "/Users/josepsmachine/miniforge3/envs/ML/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 230, in _extract_packet_bytes
+    assert magic == ord("W")
+AssertionError

@@ -85,5 +85,42 @@ The idea is that if we are able to make a model with a decent accuracy that **co
 **Results:**
 We didn't manage to classify. We cannot conclude from this that the inability to classify means that there is no relation so we could consider it non conclusive. Anyhow, talking to *Natacha* she mentioned that the scientists taking the samples were trying to make the conditions stable, which aligns with having no relation between them.
 
-## What conditions are related to the increase or decrease of certain species?
+## What water conditions are related to the increase or decrease of certain species?
 
+**Note: What water conditions?**
+- TAN_DF
+- pH_DF
+- NO2_DF
+- Alkalinity_DF
+- TAN_DGS
+- pH_DGS
+- NO2_DGS
+- Alkalinity_DGS
+- Flow_rate
+- TAN_removal_biocarrier
+- co2_mgl
+- h2s_ugl
+- o2_mgl
+- o2_sat
+- salinity
+- temp
+---
+We computed the **correlation** for each of the **water conditions** with the **percentage of dna** per sample, per species. A lot of data.
+We wanted to do this in order to later on, be able to analyze the correlation of each water condition with the dna %:
+
+- per system 
+- per treatment
+
+We will look per water condition the **distribution** of these correlations in each **system group** and **treatment group**. We **could** even analyse for **specific species** we were interested on*
+We could even analyse per sample the different replicas distribution, in theory they should be pretty packed together. 
+
+**Per System:**
+
+<imgs super plot<
+
+We can see that
+
+**Per Treatment:**
+<imgs super plot
+
+We can see that
