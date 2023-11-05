@@ -22,7 +22,7 @@ This is what we found:
 
 <img title="a title" alt="Alt text" src="imgs/diversity_plot.png">
 
-***[some conclusions!!!]***
+We can see see some treatments, such as treatment 1 that seem to have a diferent behaviour in system A than B. Also it is interesting to see how indeed the replicas have similar values and hence, behave similarly.
 
 ## **How do the different treatments impact the populations?**
 
@@ -62,6 +62,7 @@ After this result, we continued to determine, **how does this affect all other s
 
 
 <img title="a title" alt="Alt text" src="imgs/pvalue_all_species.png">
+In the above plot, each dot represents a different specie, they are randomly plotted on the canvas mantaining a y-value equal to the calculated p-value.
 
 **What percent of species are significantly affected by the treatments?** --> 4.35%
 
@@ -105,11 +106,6 @@ Generally, the models came up with an accuracy around 18%, this is a reflection 
 
 ![baseline](figs/baseline.png)
 
-![baseline](figs/predict_fig2.png)
-
-![baseline](figs/predict_fig3.png)
-
-![baseline](figs/predict_fig4.png)
 
 After removing treatment 9, the accuracy fell to 0.156. This means that the model is able to sometimes guess the treatment from the data, however the accuracy falling when removing treatment 9, simply shows the model guesses treatment 9 too often.
 
