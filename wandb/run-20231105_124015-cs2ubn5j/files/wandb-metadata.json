@@ -1,0 +1,33 @@
+{
+    "os": "macOS-13.5.1-arm64-arm-64bit",
+    "python": "3.10.9",
+    "heartbeatAt": "2023-11-05T11:40:16.085090",
+    "startedAt": "2023-11-05T11:40:15.557453",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "water2treatment-jvsc-5bd337b2-7aea-4084-abbc-701d87e1cc3dda9cbc6b-976e-49de-917f-c0ed26a4e779.ipynb",
+    "root": "/Users/josepsmachine/Documents/PROGRAMMING/BioBytes_Uib_Datathon2023",
+    "git": {
+        "remote": "https://github.com/Haradai/BioBytes_Uib_Datathon2023.git",
+        "commit": "3a1332b41a1100c9f40287d9b7b14cdbfa95aaf3"
+    },
+    "email": "33980384+Haradai@users.noreply.github.com",
+    "host": "Joseps-MacBook-Air.local",
+    "username": "josepsmachine",
+    "executable": "/Users/josepsmachine/miniforge3/envs/ML/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 441.74514389038086
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
