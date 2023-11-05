@@ -1,15 +1,33 @@
 # Bio datathon UiB 
 
 # Introduction:
-we were presented with blbalbla
+
+### We were presented with two files:
+
+**abundance_table.csv** which contains the percentage of DNA for each species found in different samples which have been given different treatments across several replicas.
+
+**env_parameter_sample.csv** which contains the environmetal conditions for samples.
 
 # Initial exploration:
-Correlation plots etcc
+
+Making a correlation plot over all values in the env_parameter_sample file can show the correlation between variables.
+
+Purple = high positive correlation
+
+White = low correlation
+
+Blue = high negative correlation
+
+![corr_plot](figs/covv_matrix_env.png)
+
+We can see that some of the variables in the env_paramter_sample file have high degrees of correlation, but most variables no do not correlate.
 
 # What we want to answer
+
 The instructions were pretty open regarding what we could do with the data. For us, it was interesting to find out how the **different treatments** impact the life thats in it, regarding the **concentrations of dna** found.
 
 Initially, we thought about it broadly, hence we asked ourselves:
+
 ## **How is the biodiversity impacted by treatment?**
 
 First we had to define a measure of diversity.
