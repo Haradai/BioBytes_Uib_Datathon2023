@@ -1,4 +1,6 @@
-# Bio datathon UiB 
+# Bio datathon UiB 2023
+
+-> First price in Bachelor category!
 
 # Introduction:
 
