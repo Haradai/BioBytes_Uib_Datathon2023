@@ -1,0 +1,80 @@
+digraph {
+	graph [size="12,12"]
+	node [align=left fontname=monospace fontsize=10 height=0.2 ranksep=0.1 shape=box style=filled]
+	6359458464 [label="
+ (1)" fillcolor=darkolivegreen1]
+	6086113408 [label=ReluBackward0]
+	6086102848 -> 6086113408
+	6086102848 [label=LinearBackward0]
+	6086113840 -> 6086102848
+	6086113840 [label=ReluBackward0]
+	6086108992 -> 6086113840
+	6086108992 [label=LinearBackward0]
+	6086114368 -> 6086108992
+	6086114368 [label=ReluBackward0]
+	6086108896 -> 6086114368
+	6086108896 [label=LinearBackward0]
+	6086110576 -> 6086108896
+	6086110576 [label=ReluBackward0]
+	6086108800 -> 6086110576
+	6086108800 [label=CatBackward0]
+	6086103328 -> 6086108800
+	6086103328 [label=EmbeddingBackward0]
+	6086101888 -> 6086103328
+	6359457584 [label="embedding_systreat.weight
+ (18, 520)" fillcolor=lightblue]
+	6359457584 -> 6086101888
+	6086101888 [label=AccumulateGrad]
+	6086114656 -> 6086108800
+	6086114656 [label=EmbeddingBackward0]
+	6086113456 -> 6086114656
+	6359461344 [label="embedding_specie.weight
+ (196, 520)" fillcolor=lightblue]
+	6359461344 -> 6086113456
+	6086113456 [label=AccumulateGrad]
+	6086113216 -> 6086108800
+	6086113216 [label=ReluBackward0]
+	6086112208 -> 6086113216
+	6086112208 [label=LinearBackward0]
+	6086099200 -> 6086112208
+	6359457504 [label="conditions_fc.weight
+ (520, 7)" fillcolor=lightblue]
+	6359457504 -> 6086099200
+	6086099200 [label=AccumulateGrad]
+	6086107744 -> 6086112208
+	6359461424 [label="conditions_fc.bias
+ (520)" fillcolor=lightblue]
+	6359461424 -> 6086107744
+	6086107744 [label=AccumulateGrad]
+	6086112160 -> 6086108896
+	6359449984 [label="fc1.weight
+ (520, 1560)" fillcolor=lightblue]
+	6359449984 -> 6086112160
+	6086112160 [label=AccumulateGrad]
+	6086110528 -> 6086108896
+	6359457264 [label="fc1.bias
+ (520)" fillcolor=lightblue]
+	6359457264 -> 6086110528
+	6086110528 [label=AccumulateGrad]
+	6086100016 -> 6086108992
+	6359456384 [label="fc2.weight
+ (260, 520)" fillcolor=lightblue]
+	6359456384 -> 6086100016
+	6086100016 [label=AccumulateGrad]
+	6086109280 -> 6086108992
+	6359461264 [label="fc2.bias
+ (260)" fillcolor=lightblue]
+	6359461264 -> 6086109280
+	6086109280 [label=AccumulateGrad]
+	6086102944 -> 6086102848
+	6359459984 [label="fc_reg.weight
+ (1, 260)" fillcolor=lightblue]
+	6359459984 -> 6086102944
+	6086102944 [label=AccumulateGrad]
+	6086105056 -> 6086102848
+	6359461504 [label="fc_reg.bias
+ (1)" fillcolor=lightblue]
+	6359461504 -> 6086105056
+	6086105056 [label=AccumulateGrad]
+	6086113408 -> 6359458464
+}
